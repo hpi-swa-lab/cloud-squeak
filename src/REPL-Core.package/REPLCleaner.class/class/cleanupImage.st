@@ -27,6 +27,7 @@ cleanupImage
 	
 	Smalltalk garbageCollect.
 	self findPinned do: #unpin.
+	self deleteTheDisplay.
 	Smalltalk garbageCollect.
 	
 	Transcript showln: 'Cleaned!'.
