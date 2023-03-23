@@ -1,0 +1,15 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"WSL",
+		"WriteSpaceTally" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uiProcess" ],
+	"name" : "REPLCleaner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tm 7/30/2015 20:51",
+	"instvars" : [
+		"scanner" ],
+	"name" : "REPLExpressionParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

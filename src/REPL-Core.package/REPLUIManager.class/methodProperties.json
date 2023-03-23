@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"chooseDirectory:from:" : "pre 7/9/2018 16:41",
+		"chooseFrom:lines:title:" : "pre 7/10/2018 08:50",
+		"chooseFrom:values:lines:title:" : "TheresaHMartenK 6/20/2020 16:26",
+		"confirm:" : "pre 7/9/2018 16:42",
+		"confirm:orCancel:" : "pre 7/9/2018 16:42",
+		"displayProgress:at:from:to:during:" : "fbs 10/31/2013 07:48",
+		"edit:label:accept:" : "fbs 10/31/2013 07:48",
+		"inform:" : "pre 7/10/2018 09:16",
+		"informUserDuring:" : "mt 8/11/2016 08:52",
+		"request:initialAnswer:" : "pre 7/9/2018 16:44",
+		"requestPassword:" : "pre 7/9/2018 16:44",
+		"saveFilenameRequest:initialAnswer:" : "pre 7/9/2018 16:45",
+		"startUpMenu:withCaption:icon:at:allowKeyboard:" : "tpr 1/26/2018 18:20" } }

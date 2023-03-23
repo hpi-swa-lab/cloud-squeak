@@ -1,0 +1,14 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Interface" ],
+	"commentStamp" : "db 8/1/2015 02:34",
+	"instvars" : [
+		 ],
+	"name" : "REPLStartUp",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

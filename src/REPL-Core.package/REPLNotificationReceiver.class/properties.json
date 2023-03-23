@@ -1,0 +1,16 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "db 7/31/2015 20:02",
+	"instvars" : [
+		"model",
+		"source",
+		"lastError" ],
+	"name" : "REPLNotificationReceiver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

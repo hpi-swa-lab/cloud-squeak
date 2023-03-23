@@ -1,0 +1,14 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "REPLUIManager",
+	"pools" : [
+		 ],
+	"super" : "UIManager",
+	"type" : "normal" }

@@ -1,0 +1,28 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "db 8/1/2015 02:34",
+	"instvars" : [
+		"debugger",
+		"suggestionIndex",
+		"suggestions",
+		"parser",
+		"debugging",
+		"completionTarget",
+		"history",
+		"completion",
+		"evaluator",
+		"completing",
+		"cursorPosition",
+		"interface",
+		"historyIndex",
+		"inputBuffer",
+		"outputBuffer" ],
+	"name" : "REPLShell",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,25 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"goal",
+		"parents",
+		"toDo",
+		"toDoNext",
+		"hasGemStone",
+		"pointerList",
+		"objectList",
+		"parentsSize",
+		"todoSize",
+		"depth",
+		"pointerListIndex",
+		"excludedObjects" ],
+	"name" : "REPLPointerFinder",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

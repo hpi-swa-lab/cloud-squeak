@@ -1,0 +1,16 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tm 7/30/2015 20:18",
+	"instvars" : [
+		"expressionEvaluator",
+		"userInterface",
+		"expressionParser" ],
+	"name" : "REPLEvaluationContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

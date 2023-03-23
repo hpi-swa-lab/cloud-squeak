@@ -1,0 +1,14 @@
+{
+	"category" : "REPL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "db 8/1/2015 02:34",
+	"instvars" : [
+		 ],
+	"name" : "REPLExpressionShortcut",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+OrderedDictionary {
+	'src/REPL-Core.package' : #SquotCypressCodeSerializer
+}

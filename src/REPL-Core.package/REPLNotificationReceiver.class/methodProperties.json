@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"newFor:with:" : "tm 8/4/2015 18:03" },
+	"instance" : {
+		"bindingOf:" : "tm 8/4/2015 18:03",
+		"doesNotUnderstand:" : "tm 8/4/2015 18:03",
+		"lastError" : "tm 8/4/2015 18:03",
+		"lastError:" : "tm 8/4/2015 18:03",
+		"model" : "tm 8/4/2015 18:03",
+		"model:" : "tm 8/4/2015 18:03",
+		"notify:at:in:" : "tm 8/4/2015 18:03",
+		"select" : "tm 8/4/2015 18:03",
+		"selectFrom:to:" : "tm 8/4/2015 18:03",
+		"selectionInterval" : "tm 8/4/2015 18:03",
+		"source" : "tm 8/4/2015 18:03",
+		"source:" : "tm 8/4/2015 18:03",
+		"wantsInteractiveErrorCorrection" : "generated 3/7/2023 14:58" } }
