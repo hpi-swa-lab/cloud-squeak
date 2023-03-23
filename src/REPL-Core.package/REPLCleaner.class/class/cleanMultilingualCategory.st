@@ -7,4 +7,6 @@ cleanMultilingualCategory
 	
 	EncodedCharSet classPool
 		at: #EncodedCharSets
-		put: (Array new: 256 withAll: Unicode)
+		put: (Array new: 256 withAll: Unicode).
+	EncodedCharSet class removeSelector: #initialize.
+	Unicode classPool at: #GeneralCategory put: (SparseLargeTable new: 1)
