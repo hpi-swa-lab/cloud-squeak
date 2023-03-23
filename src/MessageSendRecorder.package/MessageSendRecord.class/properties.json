@@ -1,0 +1,27 @@
+{
+	"category" : "MessageSendRecorder-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/24/2020 16:23",
+	"instvars" : [
+		"recorder",
+		"id",
+		"parent",
+		"pc",
+		"children",
+		"method",
+		"sendId",
+		"receiverClass",
+		"receiverId",
+		"extension",
+		"firstChild",
+		"nextSibling",
+		"beginTime",
+		"endTime" ],
+	"name" : "MessageSendRecord",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"type" : "normal" }

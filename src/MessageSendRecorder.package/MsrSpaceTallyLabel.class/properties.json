@@ -1,0 +1,14 @@
+{
+	"category" : "MessageSendRecorder-SpaceTally",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label" ],
+	"name" : "MsrSpaceTallyLabel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "MessageSendRecorder-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodReference",
+		"previousMethod" ],
+	"name" : "MsrSimpleWrapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

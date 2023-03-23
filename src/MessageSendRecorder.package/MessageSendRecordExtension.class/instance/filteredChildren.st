@@ -1,0 +1,4 @@
+accessing
+filteredChildren
+
+	^ filteredChildren

@@ -1,0 +1,4 @@
+accessing
+fromObject
+
+	^ fromObject

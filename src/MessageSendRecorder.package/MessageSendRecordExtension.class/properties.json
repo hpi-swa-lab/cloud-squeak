@@ -1,0 +1,29 @@
+{
+	"category" : "MessageSendRecorder-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"duration",
+		"argumentClasses",
+		"argumentNames",
+		"timeRatio",
+		"receiverObject",
+		"argumentObjects",
+		"returnObject",
+		"timeToRun",
+		"isOuterContext",
+		"receiverCopy",
+		"argumentCopies",
+		"returnCopy",
+		"time",
+		"filteredChildren",
+		"beginTime",
+		"endTime" ],
+	"name" : "MessageSendRecordExtension",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

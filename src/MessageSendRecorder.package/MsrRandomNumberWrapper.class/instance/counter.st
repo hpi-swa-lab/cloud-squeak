@@ -1,0 +1,3 @@
+evaluating
+counter
+	^0

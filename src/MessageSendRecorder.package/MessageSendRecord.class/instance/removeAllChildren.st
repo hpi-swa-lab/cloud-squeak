@@ -1,0 +1,3 @@
+enumerating
+removeAllChildren
+	firstChild := nil

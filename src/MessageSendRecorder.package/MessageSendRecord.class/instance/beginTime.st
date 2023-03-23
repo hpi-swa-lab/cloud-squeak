@@ -1,0 +1,4 @@
+accessing
+beginTime
+
+	^ beginTime

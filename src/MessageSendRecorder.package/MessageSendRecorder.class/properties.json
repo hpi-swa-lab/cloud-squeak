@@ -1,0 +1,29 @@
+{
+	"category" : "MessageSendRecorder-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/28/2020 10:02",
+	"instvars" : [
+		"methods",
+		"topRecord",
+		"currentRecord",
+		"nextRecordId",
+		"objectIds",
+		"isFirstRecording",
+		"recordingMode",
+		"recordingHelpers",
+		"recordingProcess",
+		"minimumHighResDuration",
+		"recordTime",
+		"instrumentationTime",
+		"deinstrumentationTime",
+		"active",
+		"eventCounter",
+		"wrappers" ],
+	"name" : "MessageSendRecorder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

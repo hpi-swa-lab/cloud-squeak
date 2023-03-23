@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"initialize" : "jl 3/6/2023 16:09",
+		"record:with:" : "mt 7/15/2020 18:50",
+		"recorderCode" : "jl 2/21/2023 10:51",
+		"recorderCode:" : "jl 2/21/2023 10:52" },
+	"instance" : {
+		"a" : "jl 3/6/2023 13:45",
+		"a:" : "jl 3/6/2023 13:45",
+		"counter" : "jl 3/3/2023 12:09",
+		"install" : "jl 3/3/2023 11:57",
+		"numCallsBefore" : "mt 7/15/2020 17:26",
+		"recorder" : "mt 7/15/2020 17:26",
+		"recorder:" : "jl 3/6/2023 12:49",
+		"run:with:in:" : "jl 3/1/2023 17:00",
+		"setRecorder:" : "mt 7/15/2020 17:53",
+		"valueWithReceiver:arguments:" : "jl 3/6/2023 15:04",
+		"valueWithReceiver:arguments:record:" : "jl 2/21/2023 11:23" } }

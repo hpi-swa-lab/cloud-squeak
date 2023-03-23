@@ -1,0 +1,18 @@
+{
+	"category" : "MessageSendRecorder-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MaxCalls",
+		"RecorderCode" ],
+	"commentStamp" : "jl 3/1/2023 16:27",
+	"instvars" : [
+		"recorder",
+		"numCallsBefore",
+		"unwrappedMethod",
+		"counter" ],
+	"name" : "MsrMethodWrapper",
+	"pools" : [
+		 ],
+	"super" : "MsrSimpleWrapper",
+	"type" : "normal" }

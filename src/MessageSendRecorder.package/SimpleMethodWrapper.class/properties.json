@@ -1,0 +1,14 @@
+{
+	"category" : "MessageSendRecorder-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"method" ],
+	"name" : "SimpleMethodWrapper",
+	"pools" : [
+		 ],
+	"super" : "ProtoObject",
+	"type" : "normal" }

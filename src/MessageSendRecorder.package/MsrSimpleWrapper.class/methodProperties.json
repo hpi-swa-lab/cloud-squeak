@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"canWrap:inClass:" : "jl 3/1/2023 15:49",
+		"on:inClass:" : "jl 3/1/2023 15:51" },
+	"instance" : {
+		"clientMethod" : "jl 3/1/2023 15:46",
+		"compiledMethod" : "",
+		"doesNotUnderstand:" : "",
+		"initialize" : "jl 3/1/2023 15:42",
+		"install" : "jl 3/1/2023 16:56",
+		"methodReference" : "",
+		"methodReference:" : "",
+		"run:with:in:" : "jl 3/1/2023 15:41",
+		"uninstall" : "jl 3/1/2023 16:56" } }

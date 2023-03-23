@@ -1,0 +1,14 @@
+{
+	"category" : "MessageSendRecorder-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MsrDummyObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

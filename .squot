@@ -1,3 +1,4 @@
 OrderedDictionary {
-	'src/REPL-Core.package' : #SquotCypressCodeSerializer
+	'src/REPL-Core.package' : #SquotCypressCodeSerializer,
+	'src/MessageSendRecorder.package' : #SquotCypressCodeSerializer
 }

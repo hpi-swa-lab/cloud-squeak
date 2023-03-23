@@ -1,0 +1,1 @@
+Alternative Superclass: MsrSimpleWrapper and MwMethodWrapper
