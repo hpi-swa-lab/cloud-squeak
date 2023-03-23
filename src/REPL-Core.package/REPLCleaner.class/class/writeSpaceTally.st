@@ -2,7 +2,7 @@ as yet unclassified
 writeSpaceTally
 
 	| st report json objects |
-	"	["
+
 	(WriteSpaceTally ifNil: [false]) ifFalse: [^ self].
 	
 	Transcript showln: 'Write Space Tally'.
@@ -26,7 +26,3 @@ writeSpaceTally
 		forceNewFileNamed: 'aws-report.txt'
 		do: [:stream | stream nextPutAll: report].
 	
-	
-	"] on: Error do: [ :error  | 
-		Transcript showln: 'writeSpaceTally ERROR: ', error asString
-	]"
