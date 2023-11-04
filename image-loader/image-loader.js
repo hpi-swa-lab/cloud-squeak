@@ -114,8 +114,8 @@ export default class ImageLoader {
     if (this.canvasCtx) {
       
       
-      var color = this.colorForClass(classID)
-      // var color = this.colorForClass(objPos)
+      // var color = this.colorForClass(classID)
+      var color = this.colorForClass(objPos)
 
       
       // if (this.counter > 1000) return
@@ -125,23 +125,23 @@ export default class ImageLoader {
       // objPos = this.counter * objectSize
       // bytes = objectSize
       
+      var w = this.canvas.width * 8
+      
       var pos = objPos
+      
+      var first = true
       while(pos < objPos + bytes) {
         
         // color objects with color of class
         
-      var w = this.canvas.width * 8
+        
         
         var x = pos  % w
         x -= (x % 8)
         x = x / 8
         
-        var y = Math.floor(pos / w)
-        
+        var y = Math.floor(pos / w)    
         y = y * 8
-        
-        
-        // this.visualizPixel(x,y, color) 
         
         for(var i=0; i< 8; i++) {
           this.visualizPixel(x,y+i, color) 
@@ -149,9 +149,12 @@ export default class ImageLoader {
 
         }
         
-        
-        
-
+        if (first) {
+          first = false
+          for(var i=0; i< 8; i++) {
+            this.visualizPixel(x,y+i, {r: 0.5 * color.r, g: 0.5 *color.g, b: 0.5 *color.b}) 
+          }
+        }
         
         // color pixels with data TODO
         // var i = Math.floor((pos - objPos) / 8)
@@ -192,7 +195,7 @@ export default class ImageLoader {
     
     this.objectsForPixel = new Array()
     this.canvas.addEventListener("click", evt => {
-      var pos = lively.getPosition(evt).subPt(lively.getGlobalPosition(this.canvas))
+      var pos = lively.getPosition(evt).subPt(lively.getClientPosition(this.canvas))
       
       var object = this.getObjectForPixel(Math.floor(pos.x), Math.floor(pos.y))
       
