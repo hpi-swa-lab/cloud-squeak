@@ -9,8 +9,12 @@ import ImageLoader from "https://lively-kernel.org/lively4/cloud-squeak/image-lo
 var data;
 
 if (!data) {
-  data = await fetch("http://localhost:9005/Dropbox/hpi/Squeak/Tracing/aws-final.image").then(r => r.arrayBuffer())
+  // data = await fetch("http://localhost:9005/Dropbox/hpi/Squeak/Tracing/aws-final.image").then(r => r.arrayBuffer())
+  
+   data = await fetch("https://lively-kernel.org/lively4/cloud-squeak/image-loader/aws-final.image").then(r => r.arrayBuffer())
+
 }
+
 
 // (async () => {
 //   data = null
