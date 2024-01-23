@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"cleanCollectionsTextCategory" : "tobe 3/23/2023 09:50",
-		"cleanMultilingualCategory" : "tobe 3/23/2023 15:09",
+		"cleanMultilingualCategory" : "ct 1/23/2024 16:22",
 		"cleanPackageInfo" : "tobe 3/23/2023 09:39",
 		"cleanPreferences" : "generated 3/7/2023 22:23",
 		"cleanSystemCategory" : "tobe 3/23/2023 13:39",
@@ -9,11 +9,11 @@
 		"cleanupImage" : "jl 3/23/2023 15:05",
 		"deleteClassOrganizations" : "jl 3/22/2023 13:03",
 		"deleteLargeMethods" : "tobe 3/21/2023 11:30",
-		"deleteMostPackages" : "tobe 3/23/2023 10:55",
+		"deleteMostPackages" : "ct 1/23/2024 16:51",
 		"deleteProcesses" : "tobe 3/23/2023 09:17",
 		"deleteProjects" : "tobe 3/13/2023 15:13",
 		"deleteTheDisplay" : "tobe 3/23/2023 14:02",
-		"deleteWorkingCopies" : "generated 3/7/2023 15:20",
+		"deleteWorkingCopies" : "ct 1/23/2024 16:27",
 		"findLargeMethods" : "generated 3/7/2023 20:52",
 		"findPinned" : "generated 3/7/2023 17:18",
 		"keepClass:" : "generated 3/7/2023 15:41",
