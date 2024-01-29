@@ -10,4 +10,5 @@ handleError: error
 	error printVerboseOn: FileStream stdout.
 	FileStream stdout
 		lf;
-		flush
+		flush.
+	Processor terminateActive.

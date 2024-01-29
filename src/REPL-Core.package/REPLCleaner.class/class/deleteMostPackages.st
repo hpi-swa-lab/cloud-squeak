@@ -14,10 +14,14 @@ deleteMostPackages
 		
 		"breaks in unload"
 		PreferenceBrowser class compile: 'unregisterFromFlaps'.
-		Project class compile: 'uiManager ^ DummyUIManager new'.
+		Project class compile: 'uiManager ^ REPLUIManager new'.
+		UIManager class compile: 'default ^ REPLUIManager new'.
 		GeeMailMorph class compile: 'unload'.
 		DefaultExternalDropHandler class compile: 'unload'.
 		AbstractLauncher class compile: 'deactivate'.
+		EtoysPresenter compile: 'unload
+	Presenter ifNotNil: [Presenter defaultPresenterClass: nil].
+	PasteUpMorph allInstancesDo:[:p| p dumpPresenter].'.
 		
 		toDelete := (self environment organization categories reject: [:category | self keepList anySatisfy: [:name | category beginsWith: name]]) reversed.
 		toDelete := toDelete, ((toDelete collect: [:name | (name splitBy: '-') first]) reject: [:prefix | self keepList includes: prefix, '-']) withoutDuplicates.
@@ -30,7 +34,9 @@ deleteMostPackages
 		Transcript showln: 'Deleting...'.
 		toDelete withIndexDo: [:category :index |
 			Transcript showln: ('{1}/{2} {3}' format: {index. toDelete size. category}).
-			(PackageInfo named: category) extensionMethods do: [:method | (self keepClass: method actualClass) ifTrue: [method actualClass removeSelector: method selector]].
+			"for category prefixes that are not a package by themselves (e.g., Chronology), do NOT create a new package on the fly (as PackageInfo named: ... would do) as this would also remove extension methods inside actual packages from nested categories (e.g., Chronology-Core)!"
+			self environment packageOrganizer packageNamed: category ifPresent: [:package |
+				package extensionMethods do: [:method | (self keepClass: method actualClass) ifTrue: [method actualClass removeSelector: method selector]]].
 			
 			self environment organization removeSystemCategory: category].
 		

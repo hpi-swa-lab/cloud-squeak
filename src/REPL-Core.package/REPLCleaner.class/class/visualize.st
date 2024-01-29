@@ -2,7 +2,7 @@ as yet unclassified
 visualize
 
 	| items total form x y canvas |
-	items := FileStream readOnlyFileNamed: '/home/tom/a.json' do: [:f |
+	items := FileStream readOnlyFileNamed: '~/REPLCleaner.sizes.json' do: [:f |
 		f contents lines collect: [:line | | parts |
 			parts := line splitBy: String tab.
 			{parts first. parts second asNumber}]].
